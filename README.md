@@ -1,4 +1,28 @@
-nman
+nman(1)
 ====
 
-Read the node.js core api in man page format
+Read the node.js [core api](http://nodejs.org/api/) in man page format
+
+## install
+
+```sh
+$ git clone https://github.com/jwerle/nman.git 
+$ cd ./nman
+$ make install
+```
+
+or 
+
+```sh
+(cd /tmp && git clone --depth 1 https://github.com/jwerle/nman.git && cd nman && sudo make install && cd -)
+```
+
+## usage
+
+```sh
+$ nman fs
+```
+
+## license
+
+MIT
