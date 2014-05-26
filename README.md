@@ -5,6 +5,14 @@ Read the node.js [core api](http://nodejs.org/api/) in man page format
 
 ## install
 
+[bpkg](https://github.com/bpkg/bpkg)
+
+```sh
+$ bpkg install nman -g
+```
+
+*source:*
+
 ```sh
 $ git clone https://github.com/jwerle/nman.git 
 $ cd ./nman
