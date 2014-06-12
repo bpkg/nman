@@ -138,7 +138,8 @@ features () {
   while true; do
     arg="$1"
     if [ "" = "${arg}" ]; then
-      break
+      usage
+      exit 1
     elif [ "-" != "${arg:0:1}" ]; then
       break;
     fi
