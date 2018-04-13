@@ -8,8 +8,8 @@ opt () { eval "if [ -z "\${$1}" ]; then ${1}=${2}; fi"; }
 opt TMPDIR "/tmp/"
 opt CACHE_DIR="${TMPDIR}nman-cache"
 opt OUTPUT="ronn"
-opt API_URL "https://raw.githubusercontent.com/joyent/node/master/doc/api"
-opt DOC_EXT "markdown"
+opt API_URL "https://raw.githubusercontent.com/nodejs/node/master/doc/api"
+opt DOC_EXT "md"
 
 ## output usage
 usage () {
