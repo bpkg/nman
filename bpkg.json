@@ -1,6 +1,6 @@
 {
   "name": "nman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Read the node.js core api in man page format",
   "scripts": [ "nman.sh" ],
   "install": "make install"

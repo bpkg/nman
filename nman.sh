@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="0.0.1"
+VERSION="0.0.2"
 
 ## sets optional variable from environment
 opt () { eval "if [ -z "\${$1}" ]; then ${1}=${2}; fi"; }
@@ -8,7 +8,7 @@ opt () { eval "if [ -z "\${$1}" ]; then ${1}=${2}; fi"; }
 opt TMPDIR "/tmp/"
 opt CACHE_DIR="${TMPDIR}nman-cache"
 opt OUTPUT="ronn"
-opt API_URL "https://raw.githubusercontent.com/nodejs/node/master/doc/api"
+opt API_URL "https://raw.githubusercontent.com/nodejs/node/main/doc/api"
 opt DOC_EXT "md"
 
 ## output usage
